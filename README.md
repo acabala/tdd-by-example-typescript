@@ -13,7 +13,7 @@ Based on TDD By Example by Kent Beck
 - [x] make `amount` private
 - [x] no side effects
 - [ ] what about roundings?
-- [ ] compare different currencies
+- [x] compare different currencies
 - [x] add `equals()` method
 - [] equal with null value
 - [] equals with object

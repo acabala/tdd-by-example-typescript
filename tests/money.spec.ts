@@ -2,6 +2,8 @@ import * as assert from "assert";
 import { expect } from 'chai';
 
  import {Dollar} from "../src/Dollar";
+ import {Frank} from "../src/Frank";
+
 describe('Money test', () => {
     it('test multiplication', function () {
         let five : Dollar = new Dollar(5);
@@ -12,9 +14,13 @@ describe('Money test', () => {
         assert.equal(15, product.amount);
     });
 
-    it('test equality of objects', () => {
+    it('test equality of same currency', () => {
        expect(new Dollar(5).equals(new Dollar(5))).to.be.true;
        expect(new Dollar(5).equals(new Dollar(6))).to.be.false;
+    })
+
+    it('test equality of different currency', () => {
+        expect(new Dollar(5).equals(new Frank(5))).to.be.false;
     })
     }
 )
