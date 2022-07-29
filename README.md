@@ -20,3 +20,4 @@ Based on TDD By Example by Kent Beck
 - [x] 5 CHF * 2 = 10 CHF
 - [ ] multiply different currencies
 - [x] move money to factory method
+- [x] check currency

@@ -30,5 +30,10 @@ describe('Money test', () => {
     it('test equality of different currency', () => {
         expect(MoneyFactory.dollar(5).equals(MoneyFactory.frank(5))).to.be.false;
     })
+
+    it('test object currency', () => {
+        expect(MoneyFactory.dollar(5).currency).to.be.equal('USD');
+        expect(MoneyFactory.frank(5).currency).to.be.equal('CHF');
+    })
     }
 )
