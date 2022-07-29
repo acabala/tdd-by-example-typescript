@@ -13,3 +13,6 @@ Based on TDD By Example by Kent Beck
 - [ ] make `amount` private
 - [x] no side effects
 - [ ] what about roundings?
+- [x] add `equals()` method
+- [] equal with null value
+- [] equals with object
