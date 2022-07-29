@@ -15,6 +15,8 @@ Based on TDD By Example by Kent Beck
 - [ ] what about roundings?
 - [x] compare different currencies
 - [x] add `equals()` method
-- [] equal with null value
-- [] equals with object
+- [ ] equal with null value
+- [ ] equals with object
 - [x] 5 CHF * 2 = 10 CHF
+- [ ] multiply different currencies
+- [x] move money to factory method
