@@ -17,4 +17,4 @@ Based on TDD By Example by Kent Beck
 - [x] add `equals()` method
 - [] equal with null value
 - [] equals with object
-- [] 5 CHF * 2 = 10 CHF
+- [x] 5 CHF * 2 = 10 CHF
