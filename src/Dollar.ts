@@ -1,6 +1,13 @@
 export class Dollar {
 
-    public constructor(public amount: number) {
+    #amount: number;
+
+    public constructor(amount: number) {
+        this.#amount = amount;
+    }
+
+    public get amount(): number {
+        return this.#amount;
     }
 
     public times(multiplier: number): Dollar {
