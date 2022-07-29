@@ -5,6 +5,11 @@ import {MoneyFactory} from "../src/MoneyFactory";
 import {Money} from "../src/Money";
 
 describe('Money test', () => {
+    it('test addition', function () {
+        MoneyFactory.dollar(5);
+        let sum =  MoneyFactory.dollar(5).plus(MoneyFactory.dollar(5));
+        assert.equal(sum.amount, 10);
+    });
     it('test multiplication', function () {
         let five : Money =  MoneyFactory.dollar(5);
         let product = five.times(2);
